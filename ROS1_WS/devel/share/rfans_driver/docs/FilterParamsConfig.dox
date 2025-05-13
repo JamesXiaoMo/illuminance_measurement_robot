@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~min_range" : \b [double] min range to publish min: 0.0, default: 0.0, max: 1.0
+- \b "~max_range" : \b [double] max range to publish min: 0.1, default: 180.0, max: 200.0
+- \b "~min_angle" : \b [double] start angle value(deg) min: 0.0, default: 0.0, max: 360.0
+- \b "~max_angle" : \b [double] stop angle value(deg) min: 0.0, default: 360.0, max: 360.0
+- \b "~use_laserSelection" : \b [bool] whether use laser select function min: False, default: False, max: True
+- \b "~laserID" : \b [int] which laser channel to select min: 0, default: 0, max: 31
+

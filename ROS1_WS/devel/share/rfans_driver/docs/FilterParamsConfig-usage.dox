@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="calculation_node" pkg="rfans_driver" type="calculation_node">
+  <param name="min_range" type="double" value="0.0" />
+  <param name="max_range" type="double" value="180.0" />
+  <param name="min_angle" type="double" value="0.0" />
+  <param name="max_angle" type="double" value="360.0" />
+  <param name="use_laserSelection" type="bool" value="False" />
+  <param name="laserID" type="int" value="0" />
+</node>
+\endverbatim
+

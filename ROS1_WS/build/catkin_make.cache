@@ -1,0 +1,2 @@
+rfans_driver
+-DCATKIN_DEVEL_PREFIX=/home/illuminance_measurement_robot/ROS1_WS/devel -DCMAKE_INSTALL_PREFIX=/home/illuminance_measurement_robot/ROS1_WS/install -G Unix Makefiles
