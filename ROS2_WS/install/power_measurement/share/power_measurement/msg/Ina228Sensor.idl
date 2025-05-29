@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from power_measurement/msg/Ina228Sensor.msg
+// generated code does not contain a copyright notice
+
+
+module power_measurement {
+  module msg {
+    struct Ina228Sensor {
+      double voltage;
+
+      double current;
+
+      double power;
+    };
+  };
+};

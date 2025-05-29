@@ -1,0 +1,14 @@
+source;share/power_measurement/hook/cmake_prefix_path.ps1
+source;share/power_measurement/hook/cmake_prefix_path.dsv
+source;share/power_measurement/hook/cmake_prefix_path.sh
+source;share/power_measurement/hook/ld_library_path_lib.ps1
+source;share/power_measurement/hook/ld_library_path_lib.dsv
+source;share/power_measurement/hook/ld_library_path_lib.sh
+source;share/power_measurement/hook/pythonpath.ps1
+source;share/power_measurement/hook/pythonpath.dsv
+source;share/power_measurement/hook/pythonpath.sh
+source;share/power_measurement/local_setup.bash
+source;share/power_measurement/local_setup.dsv
+source;share/power_measurement/local_setup.ps1
+source;share/power_measurement/local_setup.sh
+source;share/power_measurement/local_setup.zsh

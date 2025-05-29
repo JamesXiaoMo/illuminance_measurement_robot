@@ -28,17 +28,17 @@ class RemoteControl(Node):
     def read_key(self):
         key = self.getch()
         if key == 'w':
-            self.Vx = self.Vx + 0.5
+            self.Vx = self.Vx + 0.2
         elif key == 's':
-            self.Vx = self.Vx - 0.5
+            self.Vx = self.Vx - 0.2
         elif key == 'a':
-            self.Vy = self.Vy + 0.5
+            self.Vy = self.Vy + 0.2
         elif key == 'd':
-            self.Vy = self.Vy - 0.5
+            self.Vy = self.Vy - 0.2
         elif key == 'q':
-            self.Vangle = self.Vangle + 0.5
+            self.Vangle = self.Vangle + 1.0
         elif key == 'e':
-            self.Vangle = self.Vangle - 0.5
+            self.Vangle = self.Vangle - 1.0
         elif key == 'x':
             self.Vx = 0.0
             self.Vy = 0.0
