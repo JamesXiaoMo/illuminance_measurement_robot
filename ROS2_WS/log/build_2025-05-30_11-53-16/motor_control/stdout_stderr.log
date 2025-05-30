@@ -15,13 +15,16 @@ creating /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/l
 creating /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control
 copying motor_control/remote_control.py -> /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control
 copying motor_control/__init__.py -> /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control
+copying motor_control/twist_listener.py -> /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control
 running install
 running install_lib
 creating /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control
 copying /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control/remote_control.py -> /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control
 copying /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control/__init__.py -> /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control
+copying /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control/twist_listener.py -> /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control
 byte-compiling /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control/remote_control.py to remote_control.cpython-38.pyc
 byte-compiling /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control/twist_listener.py to twist_listener.cpython-38.pyc
 running install_data
 creating /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/share/ament_index
 creating /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/share/ament_index/resource_index
@@ -32,4 +35,5 @@ running install_egg_info
 Copying ../../build/motor_control/motor_control.egg-info to /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control-0.0.0-py3.8.egg-info
 running install_scripts
 Installing remote_control script to /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/motor_control
+Installing twist_listener script to /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/motor_control
 writing list of installed files to '/home/illuminance_measurement_robot/ROS2_WS/build/motor_control/install.log'

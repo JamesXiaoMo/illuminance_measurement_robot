@@ -1,7 +1,6 @@
 import rclpy
 from rclpy.node import Node
 import sys, tty, termios
-import math
 import serial
 
 class RemoteControl(Node):

@@ -9,7 +9,6 @@ from power_measurement import ina228_driver
 
 
 class PowerMeasurement(Node):
-
     def __init__(self):
         super().__init__('PowerMeasurement')
         self.publisher_ = self.create_publisher(Ina228Sensor, 'power_info', 10)

@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'remote_control = motor_control.remote_control:main',
+            'twist_listener = motor_control.twist_listener:main',
         ],
     },
 )

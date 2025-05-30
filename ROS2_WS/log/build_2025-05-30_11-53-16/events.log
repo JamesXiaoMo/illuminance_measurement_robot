@@ -1,0 +1,348 @@
+[0.000000] (-) TimerEvent: {}
+[0.000474] (motor_control) JobQueued: {'identifier': 'motor_control', 'dependencies': OrderedDict()}
+[0.000934] (power_measurement) JobQueued: {'identifier': 'power_measurement', 'dependencies': OrderedDict()}
+[0.000970] (motor_control) JobStarted: {'identifier': 'motor_control'}
+[0.015492] (power_measurement) JobStarted: {'identifier': 'power_measurement'}
+[0.099768] (-) TimerEvent: {}
+[0.200315] (-) TimerEvent: {}
+[0.300756] (-) TimerEvent: {}
+[0.338183] (power_measurement) JobProgress: {'identifier': 'power_measurement', 'progress': 'cmake'}
+[0.339186] (power_measurement) Command: {'cmd': ['/usr/bin/cmake', '/home/illuminance_measurement_robot/ROS2_WS/src/power_measurement', '-DCMAKE_INSTALL_PREFIX=/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement'], 'cwd': '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'okilab-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/illuminance_measurement_robot/ROS2_WS/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.400994] (-) TimerEvent: {}
+[0.466781] (power_measurement) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.501052] (-) TimerEvent: {}
+[0.565775] (power_measurement) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.571670] (power_measurement) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.601182] (-) TimerEvent: {}
+[0.701573] (-) TimerEvent: {}
+[0.707033] (power_measurement) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.708338] (power_measurement) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.801680] (-) TimerEvent: {}
+[0.846213] (power_measurement) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.862050] (power_measurement) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.862481] (power_measurement) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.866287] (power_measurement) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.901797] (-) TimerEvent: {}
+[1.002315] (-) TimerEvent: {}
+[1.032766] (power_measurement) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.034549] (power_measurement) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.072242] (motor_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_control', 'build', '--build-base', '/home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build', 'install', '--record', '/home/illuminance_measurement_robot/ROS2_WS/build/motor_control/install.log', '--install-scripts', '$base/lib/motor_control', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/illuminance_measurement_robot/ROS2_WS/src/motor_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'okilab-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/illuminance_measurement_robot/ROS2_WS/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/illuminance_measurement_robot/ROS2_WS/build/motor_control', 'PYTHONPATH': '/home/illuminance_measurement_robot/ROS2_WS/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[1.102661] (-) TimerEvent: {}
+[1.194907] (power_measurement) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.202678] (-) TimerEvent: {}
+[1.211127] (power_measurement) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.211829] (power_measurement) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.214656] (power_measurement) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.251545] (power_measurement) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.251811] (power_measurement) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.302815] (-) TimerEvent: {}
+[1.379263] (motor_control) StdoutLine: {'line': b'running egg_info\n'}
+[1.380049] (motor_control) StdoutLine: {'line': b'creating ../../build/motor_control/motor_control.egg-info\n'}
+[1.380311] (motor_control) StdoutLine: {'line': b'writing ../../build/motor_control/motor_control.egg-info/PKG-INFO\n'}
+[1.380735] (motor_control) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt\n'}
+[1.380952] (motor_control) StdoutLine: {'line': b'writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt\n'}
+[1.381106] (motor_control) StdoutLine: {'line': b'writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt\n'}
+[1.381212] (motor_control) StdoutLine: {'line': b'writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt\n'}
+[1.383265] (motor_control) StdoutLine: {'line': b"writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[1.402896] (-) TimerEvent: {}
+[1.427353] (motor_control) StdoutLine: {'line': b"reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[1.428429] (motor_control) StdoutLine: {'line': b"writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[1.428782] (motor_control) StdoutLine: {'line': b'running build\n'}
+[1.428977] (motor_control) StdoutLine: {'line': b'running build_py\n'}
+[1.429124] (motor_control) StdoutLine: {'line': b'creating /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build\n'}
+[1.429322] (motor_control) StdoutLine: {'line': b'creating /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib\n'}
+[1.429506] (motor_control) StdoutLine: {'line': b'creating /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control\n'}
+[1.429762] (motor_control) StdoutLine: {'line': b'copying motor_control/remote_control.py -> /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control\n'}
+[1.429934] (motor_control) StdoutLine: {'line': b'copying motor_control/__init__.py -> /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control\n'}
+[1.430130] (motor_control) StdoutLine: {'line': b'copying motor_control/twist_listener.py -> /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control\n'}
+[1.430467] (motor_control) StdoutLine: {'line': b'running install\n'}
+[1.431793] (motor_control) StdoutLine: {'line': b'running install_lib\n'}
+[1.433182] (motor_control) StdoutLine: {'line': b'creating /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control\n'}
+[1.433336] (motor_control) StdoutLine: {'line': b'copying /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control/remote_control.py -> /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control\n'}
+[1.433573] (motor_control) StdoutLine: {'line': b'copying /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control/__init__.py -> /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control\n'}
+[1.433716] (motor_control) StdoutLine: {'line': b'copying /home/illuminance_measurement_robot/ROS2_WS/build/motor_control/build/lib/motor_control/twist_listener.py -> /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control\n'}
+[1.434516] (motor_control) StdoutLine: {'line': b'byte-compiling /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control/remote_control.py to remote_control.cpython-38.pyc\n'}
+[1.436945] (motor_control) StdoutLine: {'line': b'byte-compiling /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control/__init__.py to __init__.cpython-38.pyc\n'}
+[1.437194] (motor_control) StdoutLine: {'line': b'byte-compiling /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control/twist_listener.py to twist_listener.cpython-38.pyc\n'}
+[1.437730] (motor_control) StdoutLine: {'line': b'running install_data\n'}
+[1.437886] (motor_control) StdoutLine: {'line': b'creating /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/share/ament_index\n'}
+[1.437998] (motor_control) StdoutLine: {'line': b'creating /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/share/ament_index/resource_index\n'}
+[1.438108] (motor_control) StdoutLine: {'line': b'creating /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/share/ament_index/resource_index/packages\n'}
+[1.438214] (motor_control) StdoutLine: {'line': b'copying resource/motor_control -> /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/share/ament_index/resource_index/packages\n'}
+[1.438342] (motor_control) StdoutLine: {'line': b'copying package.xml -> /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/share/motor_control\n'}
+[1.438487] (motor_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.441171] (motor_control) StdoutLine: {'line': b'Copying ../../build/motor_control/motor_control.egg-info to /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/python3.8/site-packages/motor_control-0.0.0-py3.8.egg-info\n'}
+[1.442541] (motor_control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.469233] (motor_control) StdoutLine: {'line': b'Installing remote_control script to /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/motor_control\n'}
+[1.469553] (motor_control) StdoutLine: {'line': b'Installing twist_listener script to /home/illuminance_measurement_robot/ROS2_WS/install/motor_control/lib/motor_control\n'}
+[1.470019] (motor_control) StdoutLine: {'line': b"writing list of installed files to '/home/illuminance_measurement_robot/ROS2_WS/build/motor_control/install.log'\n"}
+[1.503103] (-) TimerEvent: {}
+[1.539864] (motor_control) CommandEnded: {'returncode': 0}
+[1.546548] (power_measurement) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.551073] (power_measurement) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.556304] (motor_control) JobEnded: {'identifier': 'motor_control', 'rc': 0}
+[1.559834] (power_measurement) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.603200] (-) TimerEvent: {}
+[1.703550] (-) TimerEvent: {}
+[1.775162] (power_measurement) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.803672] (-) TimerEvent: {}
+[1.842351] (power_measurement) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.903794] (-) TimerEvent: {}
+[1.987988] (power_measurement) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.003895] (-) TimerEvent: {}
+[2.054932] (power_measurement) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.104024] (-) TimerEvent: {}
+[2.204496] (-) TimerEvent: {}
+[2.226397] (power_measurement) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.304612] (-) TimerEvent: {}
+[2.405021] (-) TimerEvent: {}
+[2.445943] (power_measurement) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.455641] (power_measurement) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.491085] (power_measurement) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.492947] (power_measurement) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.505111] (-) TimerEvent: {}
+[2.534928] (power_measurement) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.535238] (power_measurement) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.535329] (power_measurement) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.535407] (power_measurement) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[2.571529] (power_measurement) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.605216] (-) TimerEvent: {}
+[2.631094] (power_measurement) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.656024] (power_measurement) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.659360] (power_measurement) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.660163] (power_measurement) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.660815] (power_measurement) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.662634] (power_measurement) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.669964] (power_measurement) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.705314] (-) TimerEvent: {}
+[2.717229] (power_measurement) StdoutLine: {'line': b'-- Generating done\n'}
+[2.733640] (power_measurement) StdoutLine: {'line': b'-- Build files have been written to: /home/illuminance_measurement_robot/ROS2_WS/build/power_measurement\n'}
+[2.751499] (power_measurement) CommandEnded: {'returncode': 0}
+[2.752341] (power_measurement) JobProgress: {'identifier': 'power_measurement', 'progress': 'build'}
+[2.753284] (power_measurement) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement', '--', '-j4', '-l4'], 'cwd': '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'okilab-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/illuminance_measurement_robot/ROS2_WS/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.805507] (-) TimerEvent: {}
+[2.836412] (power_measurement) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.836834] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement__cpp\x1b[0m\n'}
+[2.858076] (power_measurement) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.905602] (-) TimerEvent: {}
+[3.006010] (-) TimerEvent: {}
+[3.106442] (-) TimerEvent: {}
+[3.201158] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement__rosidl_generator_c\x1b[0m\n'}
+[3.206546] (-) TimerEvent: {}
+[3.221782] (power_measurement) StdoutLine: {'line': b'[  6%] Built target power_measurement__cpp\n'}
+[3.223220] (power_measurement) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/power_measurement__rosidl_generator_c.dir/rosidl_generator_c/power_measurement/msg/detail/ina228_sensor__functions.c.o\x1b[0m\n'}
+[3.246116] (power_measurement) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.246563] (power_measurement) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.246723] (power_measurement) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.307651] (-) TimerEvent: {}
+[3.342679] (power_measurement) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libpower_measurement__rosidl_generator_c.so\x1b[0m\n'}
+[3.407750] (-) TimerEvent: {}
+[3.420744] (power_measurement) StdoutLine: {'line': b'[ 22%] Built target power_measurement__rosidl_generator_c\n'}
+[3.446466] (power_measurement) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.508087] (-) TimerEvent: {}
+[3.608676] (-) TimerEvent: {}
+[3.629053] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.663552] (power_measurement) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/power_measurement/msg/ina228_sensor__type_support.cpp.o\x1b[0m\n'}
+[3.687160] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.698055] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.708818] (-) TimerEvent: {}
+[3.728066] (power_measurement) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/power_measurement/msg/detail/ina228_sensor__type_support.cpp.o\x1b[0m\n'}
+[3.728506] (power_measurement) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/power_measurement/msg/detail/dds_fastrtps/ina228_sensor__type_support.cpp.o\x1b[0m\n'}
+[3.810706] (-) TimerEvent: {}
+[3.873196] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.905606] (power_measurement) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/power_measurement__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/power_measurement/msg/detail/ina228_sensor__type_support.c.o\x1b[0m\n'}
+[3.910836] (-) TimerEvent: {}
+[3.987642] (power_measurement) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libpower_measurement__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.010980] (-) TimerEvent: {}
+[4.061711] (power_measurement) StdoutLine: {'line': b'[ 41%] Built target power_measurement__rosidl_typesupport_introspection_c\n'}
+[4.088587] (power_measurement) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.113574] (-) TimerEvent: {}
+[4.214137] (-) TimerEvent: {}
+[4.241548] (power_measurement) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libpower_measurement__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.314406] (-) TimerEvent: {}
+[4.338522] (power_measurement) StdoutLine: {'line': b'[ 48%] Built target power_measurement__rosidl_typesupport_cpp\n'}
+[4.346965] (power_measurement) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libpower_measurement__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.414560] (-) TimerEvent: {}
+[4.427461] (power_measurement) StdoutLine: {'line': b'[ 51%] Built target power_measurement__rosidl_typesupport_introspection_cpp\n'}
+[4.480842] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement__rosidl_typesupport_c\x1b[0m\n'}
+[4.505688] (power_measurement) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_c.dir/rosidl_typesupport_c/power_measurement/msg/ina228_sensor__type_support.cpp.o\x1b[0m\n'}
+[4.514735] (-) TimerEvent: {}
+[4.556763] (power_measurement) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libpower_measurement__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.572319] (power_measurement) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libpower_measurement__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.614925] (-) TimerEvent: {}
+[4.655721] (power_measurement) StdoutLine: {'line': b'[ 61%] Built target power_measurement__rosidl_typesupport_c\n'}
+[4.715038] (-) TimerEvent: {}
+[4.753023] (power_measurement) StdoutLine: {'line': b'[ 61%] Built target power_measurement__rosidl_typesupport_fastrtps_cpp\n'}
+[4.773632] (power_measurement) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.815151] (-) TimerEvent: {}
+[4.915525] (-) TimerEvent: {}
+[5.015927] (-) TimerEvent: {}
+[5.081804] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.107809] (power_measurement) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/power_measurement/msg/detail/ina228_sensor__type_support_c.cpp.o\x1b[0m\n'}
+[5.116032] (-) TimerEvent: {}
+[5.216439] (-) TimerEvent: {}
+[5.316994] (-) TimerEvent: {}
+[5.417423] (-) TimerEvent: {}
+[5.517838] (-) TimerEvent: {}
+[5.611721] (power_measurement) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libpower_measurement__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.617952] (-) TimerEvent: {}
+[5.718584] (-) TimerEvent: {}
+[5.819600] (-) TimerEvent: {}
+[5.824483] (power_measurement) StdoutLine: {'line': b'[ 70%] Built target power_measurement__rosidl_typesupport_fastrtps_c\n'}
+[5.844326] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement\x1b[0m\n'}
+[5.864835] (power_measurement) StdoutLine: {'line': b'[ 70%] Built target power_measurement\n'}
+[5.885371] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement__py\x1b[0m\n'}
+[5.906121] (power_measurement) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.919705] (-) TimerEvent: {}
+[6.020230] (-) TimerEvent: {}
+[6.120940] (-) TimerEvent: {}
+[6.221352] (-) TimerEvent: {}
+[6.321945] (-) TimerEvent: {}
+[6.422320] (-) TimerEvent: {}
+[6.513153] (power_measurement) StdoutLine: {'line': b'[ 74%] Built target power_measurement__py\n'}
+[6.522463] (-) TimerEvent: {}
+[6.533207] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement__python\x1b[0m\n'}
+[6.565156] (power_measurement) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/power_measurement__python.dir/rosidl_generator_py/power_measurement/msg/_ina228_sensor_s.c.o\x1b[0m\n'}
+[6.622605] (-) TimerEvent: {}
+[6.723062] (-) TimerEvent: {}
+[6.734161] (power_measurement) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/power_measurement/libpower_measurement__python.so\x1b[0m\n'}
+[6.819758] (power_measurement) StdoutLine: {'line': b'[ 80%] Built target power_measurement__python\n'}
+[6.824290] (-) TimerEvent: {}
+[6.844089] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.846290] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.846593] (power_measurement) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target power_measurement__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.885644] (power_measurement) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/power_measurement__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/power_measurement/_power_measurement_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.886087] (power_measurement) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/power_measurement__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/power_measurement/_power_measurement_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.886216] (power_measurement) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/power_measurement__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/power_measurement/_power_measurement_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.924434] (-) TimerEvent: {}
+[7.025786] (-) TimerEvent: {}
+[7.073238] (power_measurement) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/power_measurement/power_measurement_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.073701] (power_measurement) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/power_measurement/power_measurement_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.079784] (power_measurement) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/power_measurement/power_measurement_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.126161] (-) TimerEvent: {}
+[7.180833] (power_measurement) StdoutLine: {'line': b'[100%] Built target power_measurement__rosidl_typesupport_introspection_c__pyext\n'}
+[7.181239] (power_measurement) StdoutLine: {'line': b'[100%] Built target power_measurement__rosidl_typesupport_c__pyext\n'}
+[7.226234] (-) TimerEvent: {}
+[7.230918] (power_measurement) StdoutLine: {'line': b'[100%] Built target power_measurement__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.254002] (power_measurement) CommandEnded: {'returncode': 0}
+[7.255159] (power_measurement) JobProgress: {'identifier': 'power_measurement', 'progress': 'install'}
+[7.283776] (power_measurement) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement'], 'cwd': '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'okilab-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/illuminance_measurement_robot/ROS2_WS/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.308899] (power_measurement) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.309336] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/ament_index/resource_index/rosidl_interfaces/power_measurement\n'}
+[7.309654] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement\n'}
+[7.309901] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg\n'}
+[7.310091] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.310294] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail\n'}
+[7.310512] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__type_support.h\n'}
+[7.310688] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__functions.c\n'}
+[7.310915] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__struct.h\n'}
+[7.311121] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__functions.h\n'}
+[7.311329] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/ina228_sensor.h\n'}
+[7.311773] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/library_path.sh\n'}
+[7.312078] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/library_path.dsv\n'}
+[7.312472] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_generator_c.so\n'}
+[7.313122] (power_measurement) StdoutLine: {'line': b'-- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_generator_c.so" to ""\n'}
+[7.313277] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement\n'}
+[7.313464] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg\n'}
+[7.313618] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.313833] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail\n'}
+[7.314072] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__rosidl_typesupport_fastrtps_c.h\n'}
+[7.314382] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_fastrtps_c.so\n'}
+[7.315020] (power_measurement) StdoutLine: {'line': b'-- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.315226] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement\n'}
+[7.315330] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg\n'}
+[7.315427] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail\n'}
+[7.315597] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/dds_fastrtps\n'}
+[7.315708] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.315873] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.316135] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.316953] (power_measurement) StdoutLine: {'line': b'-- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.317297] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement\n'}
+[7.317648] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg\n'}
+[7.317824] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail\n'}
+[7.318004] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__type_support.c\n'}
+[7.318273] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__rosidl_typesupport_introspection_c.h\n'}
+[7.318425] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.318821] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_introspection_c.so\n'}
+[7.319566] (power_measurement) StdoutLine: {'line': b'-- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.319756] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_c.so\n'}
+[7.320378] (power_measurement) StdoutLine: {'line': b'-- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_c.so" to ""\n'}
+[7.320848] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement\n'}
+[7.321007] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg\n'}
+[7.321136] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail\n'}
+[7.321346] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__type_support.hpp\n'}
+[7.321600] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__struct.hpp\n'}
+[7.321765] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__traits.hpp\n'}
+[7.322039] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__builder.hpp\n'}
+[7.322188] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/ina228_sensor.hpp\n'}
+[7.322336] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.322689] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement\n'}
+[7.322894] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg\n'}
+[7.323006] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail\n'}
+[7.323160] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__type_support.cpp\n'}
+[7.323312] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.323700] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_introspection_cpp.so\n'}
+[7.324371] (power_measurement) StdoutLine: {'line': b'-- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.324551] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_cpp.so\n'}
+[7.325117] (power_measurement) StdoutLine: {'line': b'-- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_cpp.so" to ""\n'}
+[7.325237] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/pythonpath.sh\n'}
+[7.325587] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/pythonpath.dsv\n'}
+[7.326014] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/__init__.py\n'}
+[7.326278] (-) TimerEvent: {}
+[7.381110] (power_measurement) StdoutLine: {'line': b"Compiling '/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/__init__.py'...\n"}
+[7.391344] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/msg\n'}
+[7.391684] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/msg/_ina228_sensor.py\n'}
+[7.391810] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/msg/_ina228_sensor_s.c\n'}
+[7.391950] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/msg/__init__.py\n'}
+[7.392462] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.393312] (power_measurement) StdoutLine: {'line': b'-- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[7.393654] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.394478] (power_measurement) StdoutLine: {'line': b'-- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[7.394772] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.395544] (power_measurement) StdoutLine: {'line': b'-- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[7.395689] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__python.so\n'}
+[7.396261] (power_measurement) StdoutLine: {'line': b'-- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__python.so" to ""\n'}
+[7.396474] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/msg/Ina228Sensor.idl\n'}
+[7.396729] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/msg/Ina228Sensor.msg\n'}
+[7.397068] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/ament_index/resource_index/package_run_dependencies/power_measurement\n'}
+[7.397397] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/ament_index/resource_index/parent_prefix_path/power_measurement\n'}
+[7.397710] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/ament_prefix_path.sh\n'}
+[7.397984] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/ament_prefix_path.dsv\n'}
+[7.398249] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/path.sh\n'}
+[7.398556] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/path.dsv\n'}
+[7.398860] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/local_setup.bash\n'}
+[7.399149] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/local_setup.sh\n'}
+[7.399427] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/local_setup.zsh\n'}
+[7.399722] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/local_setup.dsv\n'}
+[7.400016] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/package.dsv\n'}
+[7.400411] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/ament_index/resource_index/packages/power_measurement\n'}
+[7.400910] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_generator_cExport.cmake\n'}
+[7.401237] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.401651] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.401968] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.402348] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_cExport.cmake\n'}
+[7.402765] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.403130] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_generator_cppExport.cmake\n'}
+[7.403530] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.403848] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.404218] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_cppExport.cmake\n'}
+[7.404533] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.404840] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/rosidl_cmake-extras.cmake\n'}
+[7.405128] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.405418] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.405734] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.406019] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.406315] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.406758] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.407059] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurementConfig.cmake\n'}
+[7.407291] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurementConfig-version.cmake\n'}
+[7.407605] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/package.xml\n'}
+[7.407989] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/power_measurement/power_measurement_node.py\n'}
+[7.408265] (power_measurement) StdoutLine: {'line': b'-- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement\n'}
+[7.408385] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/ina228_driver.py\n'}
+[7.408654] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/__init__.py\n'}
+[7.408852] (power_measurement) StdoutLine: {'line': b'-- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_node.py\n'}
+[7.412876] (power_measurement) CommandEnded: {'returncode': 0}
+[7.426377] (-) TimerEvent: {}
+[7.439995] (power_measurement) JobEnded: {'identifier': 'power_measurement', 'rc': 0}
+[7.441126] (-) EventReactorShutdown: {}

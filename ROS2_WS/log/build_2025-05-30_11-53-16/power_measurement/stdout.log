@@ -47,16 +47,16 @@
 [35m[1mScanning dependencies of target power_measurement__rosidl_generator_c[0m
 [  6%] Built target power_measurement__cpp
 [  9%] [32mBuilding C object CMakeFiles/power_measurement__rosidl_generator_c.dir/rosidl_generator_c/power_measurement/msg/detail/ina228_sensor__functions.c.o[0m
+[ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
 [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
 [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
-[ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
 [ 22%] [32m[1mLinking C shared library libpower_measurement__rosidl_generator_c.so[0m
 [ 22%] Built target power_measurement__rosidl_generator_c
 [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
 [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_cpp[0m
-[35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_introspection_cpp[0m
 [ 29%] [32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/power_measurement/msg/ina228_sensor__type_support.cpp.o[0m
 [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_introspection_cpp[0m
 [ 32%] [32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/power_measurement/msg/detail/ina228_sensor__type_support.cpp.o[0m
 [ 35%] [32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/power_measurement/msg/detail/dds_fastrtps/ina228_sensor__type_support.cpp.o[0m
 [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_introspection_c[0m
@@ -65,8 +65,8 @@
 [ 41%] Built target power_measurement__rosidl_typesupport_introspection_c
 [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
 [ 48%] [32m[1mLinking CXX shared library libpower_measurement__rosidl_typesupport_cpp.so[0m
+[ 48%] Built target power_measurement__rosidl_typesupport_cpp
 [ 51%] [32m[1mLinking CXX shared library libpower_measurement__rosidl_typesupport_introspection_cpp.so[0m
-[ 51%] Built target power_measurement__rosidl_typesupport_cpp
 [ 51%] Built target power_measurement__rosidl_typesupport_introspection_cpp
 [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_c[0m
 [ 54%] [32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_c.dir/rosidl_typesupport_c/power_measurement/msg/ina228_sensor__type_support.cpp.o[0m
@@ -88,15 +88,15 @@
 [ 77%] [32mBuilding C object CMakeFiles/power_measurement__python.dir/rosidl_generator_py/power_measurement/msg/_ina228_sensor_s.c.o[0m
 [ 80%] [32m[1mLinking C shared library rosidl_generator_py/power_measurement/libpower_measurement__python.so[0m
 [ 80%] Built target power_measurement__python
-[35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_fastrtps_c__pyext[0m
 [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_fastrtps_c__pyext[0m
 [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_c__pyext[0m
-[ 90%] [32mBuilding C object CMakeFiles/power_measurement__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/power_measurement/_power_measurement_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/power_measurement__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/power_measurement/_power_measurement_s.ep.rosidl_typesupport_introspection_c.c.o[0m
 [ 90%] [32mBuilding C object CMakeFiles/power_measurement__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/power_measurement/_power_measurement_s.ep.rosidl_typesupport_c.c.o[0m
-[ 90%] [32mBuilding C object CMakeFiles/power_measurement__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/power_measurement/_power_measurement_s.ep.rosidl_typesupport_introspection_c.c.o[0m
-[ 93%] [32m[1mLinking C shared library rosidl_generator_py/power_measurement/power_measurement_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
-[100%] [32m[1mLinking C shared library rosidl_generator_py/power_measurement/power_measurement_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
-[100%] [32m[1mLinking CXX shared library rosidl_generator_py/power_measurement/power_measurement_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 90%] [32mBuilding C object CMakeFiles/power_measurement__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/power_measurement/_power_measurement_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/power_measurement/power_measurement_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/power_measurement/power_measurement_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/power_measurement/power_measurement_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
 [100%] Built target power_measurement__rosidl_typesupport_introspection_c__pyext
 [100%] Built target power_measurement__rosidl_typesupport_c__pyext
 [100%] Built target power_measurement__rosidl_typesupport_fastrtps_c__pyext
