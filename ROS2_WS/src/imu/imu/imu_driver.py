@@ -190,7 +190,7 @@ class IMU:
 
     def parse_frame(self, frame: bytes):
         if len(frame) != 11 or frame[0] != 0x55:
-            return None  # Not a valid frame
+            return None
 
         frame_id = frame[1]
         data = frame[2:10]
@@ -254,7 +254,7 @@ class IMU:
                     print("Received frame:", self.RxBuff)
                 else:
                     print("Checksum Error")
-                    return
+                    return None
 
 
     def readData(self):
