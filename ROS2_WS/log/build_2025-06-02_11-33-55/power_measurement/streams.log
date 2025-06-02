@@ -1,0 +1,222 @@
+[0.641s] Invoking command in '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/illuminance_measurement_robot/ROS2_WS/install/brightness_measurement:/home/illuminance_measurement_robot/ROS2_WS/install/motor_control:/opt/ros/foxy /usr/bin/cmake /home/illuminance_measurement_robot/ROS2_WS/src/power_measurement -DCMAKE_INSTALL_PREFIX=/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement
+[0.765s] -- The C compiler identification is GNU 9.4.0
+[0.877s] -- The CXX compiler identification is GNU 9.4.0
+[0.882s] -- Check for working C compiler: /usr/bin/cc
+[1.032s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.033s] -- Detecting C compiler ABI info
+[1.190s] -- Detecting C compiler ABI info - done
+[1.205s] -- Detecting C compile features
+[1.205s] -- Detecting C compile features - done
+[1.210s] -- Check for working CXX compiler: /usr/bin/c++
+[1.419s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.422s] -- Detecting CXX compiler ABI info
+[1.608s] -- Detecting CXX compiler ABI info - done
+[1.623s] -- Detecting CXX compile features
+[1.624s] -- Detecting CXX compile features - done
+[1.628s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.671s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.675s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.029s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.033s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.042s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.267s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.337s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.561s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.737s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.009s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.011s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.054s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.054s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.054s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[3.089s] -- Found PythonExtra: .so  
+[3.151s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.179s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.181s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.182s] -- Added test 'lint_cmake' to check CMake code style
+[3.183s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.184s] -- Added test 'xmllint' to check XML markup files
+[3.192s] -- Configuring done
+[3.238s] -- Generating done
+[3.254s] -- Build files have been written to: /home/illuminance_measurement_robot/ROS2_WS/build/power_measurement
+[3.266s] Invoked command in '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/illuminance_measurement_robot/ROS2_WS/install/brightness_measurement:/home/illuminance_measurement_robot/ROS2_WS/install/motor_control:/opt/ros/foxy /usr/bin/cmake /home/illuminance_measurement_robot/ROS2_WS/src/power_measurement -DCMAKE_INSTALL_PREFIX=/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement
+[3.271s] Invoking command in '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/illuminance_measurement_robot/ROS2_WS/install/brightness_measurement:/home/illuminance_measurement_robot/ROS2_WS/install/motor_control:/opt/ros/foxy /usr/bin/cmake --build /home/illuminance_measurement_robot/ROS2_WS/build/power_measurement -- -j4 -l4
+[3.351s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.351s] [35m[1mScanning dependencies of target power_measurement__cpp[0m
+[3.371s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.716s] [35m[1mScanning dependencies of target power_measurement__rosidl_generator_c[0m
+[3.733s] [  6%] Built target power_measurement__cpp
+[3.739s] [  9%] [32mBuilding C object CMakeFiles/power_measurement__rosidl_generator_c.dir/rosidl_generator_c/power_measurement/msg/detail/ina228_sensor__functions.c.o[0m
+[3.757s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.757s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.757s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.852s] [ 22%] [32m[1mLinking C shared library libpower_measurement__rosidl_generator_c.so[0m
+[3.930s] [ 22%] Built target power_measurement__rosidl_generator_c
+[3.955s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.166s] [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_cpp[0m
+[4.180s] [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_introspection_cpp[0m
+[4.191s] [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_fastrtps_cpp[0m
+[4.193s] [ 29%] [32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/power_measurement/msg/ina228_sensor__type_support.cpp.o[0m
+[4.212s] [ 32%] [32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/power_measurement/msg/detail/ina228_sensor__type_support.cpp.o[0m
+[4.236s] [ 35%] [32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/power_measurement/msg/detail/dds_fastrtps/ina228_sensor__type_support.cpp.o[0m
+[4.372s] [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_introspection_c[0m
+[4.401s] [ 38%] [32mBuilding C object CMakeFiles/power_measurement__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/power_measurement/msg/detail/ina228_sensor__type_support.c.o[0m
+[4.480s] [ 41%] [32m[1mLinking C shared library libpower_measurement__rosidl_typesupport_introspection_c.so[0m
+[4.554s] [ 41%] Built target power_measurement__rosidl_typesupport_introspection_c
+[4.580s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.781s] [ 51%] [32m[1mLinking CXX shared library libpower_measurement__rosidl_typesupport_cpp.so[0m
+[4.783s] [ 51%] [32m[1mLinking CXX shared library libpower_measurement__rosidl_typesupport_introspection_cpp.so[0m
+[4.866s] [ 51%] Built target power_measurement__rosidl_typesupport_cpp
+[4.869s] [ 51%] Built target power_measurement__rosidl_typesupport_introspection_cpp
+[4.960s] [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_c[0m
+[4.983s] [ 54%] [32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_c.dir/rosidl_typesupport_c/power_measurement/msg/ina228_sensor__type_support.cpp.o[0m
+[5.049s] [ 58%] [32m[1mLinking CXX shared library libpower_measurement__rosidl_typesupport_c.so[0m
+[5.075s] [ 61%] [32m[1mLinking CXX shared library libpower_measurement__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.123s] [ 61%] Built target power_measurement__rosidl_typesupport_c
+[5.263s] [ 61%] Built target power_measurement__rosidl_typesupport_fastrtps_cpp
+[5.284s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.584s] [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_fastrtps_c[0m
+[5.610s] [ 67%] [32mBuilding CXX object CMakeFiles/power_measurement__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/power_measurement/msg/detail/ina228_sensor__type_support_c.cpp.o[0m
+[6.104s] [ 70%] [32m[1mLinking CXX shared library libpower_measurement__rosidl_typesupport_fastrtps_c.so[0m
+[6.290s] [ 70%] Built target power_measurement__rosidl_typesupport_fastrtps_c
+[6.311s] [35m[1mScanning dependencies of target power_measurement[0m
+[6.331s] [ 70%] Built target power_measurement
+[6.351s] [35m[1mScanning dependencies of target power_measurement__py[0m
+[6.372s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.911s] [ 74%] Built target power_measurement__py
+[6.931s] [35m[1mScanning dependencies of target power_measurement__python[0m
+[6.964s] [ 77%] [32mBuilding C object CMakeFiles/power_measurement__python.dir/rosidl_generator_py/power_measurement/msg/_ina228_sensor_s.c.o[0m
+[7.115s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/power_measurement/libpower_measurement__python.so[0m
+[7.187s] [ 80%] Built target power_measurement__python
+[7.209s] [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_introspection_c__pyext[0m
+[7.209s] [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_c__pyext[0m
+[7.209s] [35m[1mScanning dependencies of target power_measurement__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.240s] [ 87%] [32mBuilding C object CMakeFiles/power_measurement__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/power_measurement/_power_measurement_s.ep.rosidl_typesupport_c.c.o[0m
+[7.240s] [ 87%] [32mBuilding C object CMakeFiles/power_measurement__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/power_measurement/_power_measurement_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.243s] [ 90%] [32mBuilding C object CMakeFiles/power_measurement__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/power_measurement/_power_measurement_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.404s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/power_measurement/power_measurement_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[7.406s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/power_measurement/power_measurement_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[7.407s] [100%] [32m[1mLinking C shared library rosidl_generator_py/power_measurement/power_measurement_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[7.488s] [100%] Built target power_measurement__rosidl_typesupport_introspection_c__pyext
+[7.489s] [100%] Built target power_measurement__rosidl_typesupport_c__pyext
+[7.538s] [100%] Built target power_measurement__rosidl_typesupport_fastrtps_c__pyext
+[7.561s] Invoked command in '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/illuminance_measurement_robot/ROS2_WS/install/brightness_measurement:/home/illuminance_measurement_robot/ROS2_WS/install/motor_control:/opt/ros/foxy /usr/bin/cmake --build /home/illuminance_measurement_robot/ROS2_WS/build/power_measurement -- -j4 -l4
+[7.588s] Invoking command in '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/illuminance_measurement_robot/ROS2_WS/install/brightness_measurement:/home/illuminance_measurement_robot/ROS2_WS/install/motor_control:/opt/ros/foxy /usr/bin/cmake --install /home/illuminance_measurement_robot/ROS2_WS/build/power_measurement
+[7.606s] -- Install configuration: ""
+[7.606s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/ament_index/resource_index/rosidl_interfaces/power_measurement
+[7.607s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement
+[7.607s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg
+[7.607s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/rosidl_generator_c__visibility_control.h
+[7.607s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail
+[7.607s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__type_support.h
+[7.608s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__functions.c
+[7.608s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__struct.h
+[7.608s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__functions.h
+[7.608s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/ina228_sensor.h
+[7.609s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/library_path.sh
+[7.609s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/library_path.dsv
+[7.609s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_generator_c.so
+[7.610s] -- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_generator_c.so" to ""
+[7.610s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement
+[7.610s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg
+[7.610s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.610s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail
+[7.610s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__rosidl_typesupport_fastrtps_c.h
+[7.611s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_fastrtps_c.so
+[7.611s] -- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_fastrtps_c.so" to ""
+[7.611s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement
+[7.612s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg
+[7.612s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail
+[7.612s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/dds_fastrtps
+[7.612s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[7.612s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.612s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_fastrtps_cpp.so
+[7.613s] -- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.613s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement
+[7.613s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg
+[7.613s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail
+[7.614s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__type_support.c
+[7.614s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__rosidl_typesupport_introspection_c.h
+[7.614s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.614s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_introspection_c.so
+[7.615s] -- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_introspection_c.so" to ""
+[7.615s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_c.so
+[7.615s] -- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_c.so" to ""
+[7.616s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement
+[7.616s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg
+[7.616s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail
+[7.616s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__type_support.hpp
+[7.616s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__struct.hpp
+[7.616s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__traits.hpp
+[7.616s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__builder.hpp
+[7.616s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/ina228_sensor.hpp
+[7.617s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.617s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement
+[7.617s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg
+[7.617s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail
+[7.617s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__type_support.cpp
+[7.617s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/include/power_measurement/msg/detail/ina228_sensor__rosidl_typesupport_introspection_cpp.hpp
+[7.618s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_introspection_cpp.so
+[7.618s] -- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_introspection_cpp.so" to ""
+[7.618s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_cpp.so
+[7.619s] -- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__rosidl_typesupport_cpp.so" to ""
+[7.619s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/pythonpath.sh
+[7.619s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/pythonpath.dsv
+[7.620s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/__init__.py
+[7.666s] Compiling '/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/__init__.py'...
+[7.675s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/msg
+[7.675s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/msg/_ina228_sensor.py
+[7.675s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/msg/_ina228_sensor_s.c
+[7.676s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/msg/__init__.py
+[7.676s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[7.677s] -- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[7.677s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[7.678s] -- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[7.678s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[7.679s] -- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[7.679s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__python.so
+[7.680s] -- Set runtime path of "/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/libpower_measurement__python.so" to ""
+[7.680s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/msg/Ina228Sensor.idl
+[7.681s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/msg/Ina228Sensor.msg
+[7.681s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/ament_index/resource_index/package_run_dependencies/power_measurement
+[7.682s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/ament_index/resource_index/parent_prefix_path/power_measurement
+[7.682s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/ament_prefix_path.sh
+[7.682s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/ament_prefix_path.dsv
+[7.683s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/path.sh
+[7.683s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/environment/path.dsv
+[7.683s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/local_setup.bash
+[7.683s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/local_setup.sh
+[7.684s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/local_setup.zsh
+[7.684s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/local_setup.dsv
+[7.684s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/package.dsv
+[7.685s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/ament_index/resource_index/packages/power_measurement
+[7.685s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_generator_cExport.cmake
+[7.685s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_generator_cExport-noconfig.cmake
+[7.686s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_introspection_cExport.cmake
+[7.686s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.686s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_cExport.cmake
+[7.687s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_cExport-noconfig.cmake
+[7.687s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_generator_cppExport.cmake
+[7.688s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_introspection_cppExport.cmake
+[7.688s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.688s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_cppExport.cmake
+[7.688s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurement__rosidl_typesupport_cppExport-noconfig.cmake
+[7.689s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/rosidl_cmake-extras.cmake
+[7.689s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.689s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/ament_cmake_export_libraries-extras.cmake
+[7.690s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/ament_cmake_export_targets-extras.cmake
+[7.690s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.690s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.690s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.691s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurementConfig.cmake
+[7.691s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/cmake/power_measurementConfig-version.cmake
+[7.691s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/share/power_measurement/package.xml
+[7.691s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/power_measurement/power_measurement_node.py
+[7.692s] -- Up-to-date: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement
+[7.692s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/ina228_driver.py
+[7.692s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/__init__.py
+[7.692s] -- Installing: /home/illuminance_measurement_robot/ROS2_WS/install/power_measurement/lib/python3.8/site-packages/power_measurement/power_measurement_node.py
+[7.697s] Invoked command in '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/illuminance_measurement_robot/ROS2_WS/install/brightness_measurement:/home/illuminance_measurement_robot/ROS2_WS/install/motor_control:/opt/ros/foxy /usr/bin/cmake --install /home/illuminance_measurement_robot/ROS2_WS/build/power_measurement
