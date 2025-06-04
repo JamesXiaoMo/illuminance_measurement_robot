@@ -161,6 +161,7 @@
 
 import serial
 import time
+import struct
 
 
 class IMU:
@@ -168,14 +169,15 @@ class IMU:
         self.data_length = 11
         self.buff_length = 11
         self.RxBuff = [0] * self.data_length
-        self.ACCData = [0.0]*8
-        self.GYROData = [0.0]*8
+        self.ACCData = [0.0] * 3
+        self.GYROData = [0.0] * 3
+        self.QUATDATA = [0.0] * 4
         self.start = False
         self.CheckSum = 0
 
         self.ser = serial.Serial(port, 9600, timeout=0.5)
         self.send_cmd(self.ser, "FF AA 69 88 B5")     # 解锁
-        self.send_cmd(self.ser, "FF AA 02 07 02")     # 设置输出内容：TIME, ACC, GYRO, MAG, QUAT
+        self.send_cmd(self.ser, "FF AA 02 06 02")     # 设置输出内容 ACC, GYRO, QUAT
         self.send_cmd(self.ser, "FF AA 04 06 00")     # 设置波特率为 115200
         self.send_cmd(self.ser, "FF AA 00 00 00")     # 保存设置
         self.ser.close()
@@ -193,51 +195,63 @@ class IMU:
             return None
 
         frame_id = frame[1]
-        data = frame[2:10]
-        checksum = sum(frame[1:10]) & 0xFF
+        if frame_id == 0x51:
+            ax_raw = struct.unpack('<h', bytes(frame[2:4]))[0]
+            ay_raw = struct.unpack('<h', bytes(frame[4:6]))[0]
+            az_raw = struct.unpack('<h', bytes(frame[6:8]))[0]
 
-        if checksum != frame[10]:
-            print("Checksum error")
-            return None
+            scale = 16.0
+            g = 9.81
 
-        if frame_id == 0x50:
-            # 时间戳：低8位 + 高8位（毫秒）
-            millis = data[0] | (data[1] << 8)
-            return {"time (s)": millis / 1000.0}
+            self.ACCData[0] = ax_raw / 32768.0 * scale * g
+            self.ACCData[1] = ay_raw / 32768.0 * scale * g
+            self.ACCData[2] = az_raw / 32768.0 * scale * g
 
-        elif frame_id == 0x51:
-            # 加速度 X/Y/Z
-            ax, ay, az = struct.unpack('<hhh', data[0:6])
             return {
-                "acc_x (g)": ax / 16384.0,
-                "acc_y (g)": ay / 16384.0,
-                "acc_z (g)": az / 16384.0
+                "acc_x (m/s^2)": self.ACCData[0],
+                "acc_y (m/s^2)": self.ACCData[1],
+                "acc_z (m/s^2)": self.ACCData[2]
             }
-
         elif frame_id == 0x52:
-            # 角速度 X/Y/Z
-            gx, gy, gz = struct.unpack('<hhh', data[0:6])
-            return {
-                "gyro_x (°/s)": gx / 16.4,
-                "gyro_y (°/s)": gy / 16.4,
-                "gyro_z (°/s)": gz / 16.4
-            }
+            gx_raw = struct.unpack('<h', bytes(frame[2:4]))[0]
+            gy_raw = struct.unpack('<h', bytes(frame[4:6]))[0]
+            gz_raw = struct.unpack('<h', bytes(frame[6:8]))[0]
 
+            scale = 180.0
+
+            self.GYROData[0] = gx_raw / 32768.0 * scale
+            self.GYROData[1] = gy_raw / 32768.0 * scale
+            self.GYROData[2] = gz_raw / 32768.0 * scale
+
+            return {
+                "gyro_x (°/s)": self.GYROData[0],
+                "gyro_y (°/s)": self.GYROData[1],
+                "gyro_z (°/s)": self.GYROData[2]
+            }
         elif frame_id == 0x59:
-            # 四元数 W, X, Y, Z
-            qw, qx, qy, qz = struct.unpack('<hhhh', data)
-            return {
-                "q_w": qw / 16384.0,
-                "q_x": qx / 16384.0,
-                "q_y": qy / 16384.0,
-                "q_z": qz / 16384.0
-            }
+            q0_raw = struct.unpack('<h', bytes(frame[2:4]))[0]
+            q1_raw = struct.unpack('<h', bytes(frame[4:6]))[0]
+            q2_raw = struct.unpack('<h', bytes(frame[6:8]))[0]
+            q3_raw = struct.unpack('<h', bytes(frame[8:10]))[0]
 
+            self.QUATData = [
+                q0_raw / 32768.0,
+                q1_raw / 32768.0,
+                q2_raw / 32768.0,
+                q3_raw / 32768.0
+            ]
+
+            return {
+                "q0": self.QUATData[0],
+                "q1": self.QUATData[1],
+                "q2": self.QUATData[2],
+                "q3": self.QUATData[3]
+            }
         else:
-            return {"unknown": data.hex()}
+            return {"unknown": frame}
     
     def preProcessData(self, data):
-        if data == 85 and self.start == 0:
+        if data == 0x55 and self.start == 0:
             self.start = True
             self.CheckSum = 0
             for i in range(self.data_length):
@@ -251,19 +265,17 @@ class IMU:
                 self.start = False
                 self.buff_length = self.data_length
                 if self.CheckSum & 0xFF == data:
-                    print("Received frame:", self.RxBuff)
+                    print(self.parse_frame(self.RxBuff))
+                    # print()
                 else:
                     print("Checksum Error")
                     return None
 
 
     def readData(self):
-        RxBuff = self.ser.read(1)
-        RxBuff = int(RxBuff.hex(), 16)
-        # print(f"Received: {RxBuff}")
-        self.preProcessData(RxBuff)
+        data = self.ser.read(1)
+        self.preProcessData(int(data.hex(), 16))
         
-
 
 if __name__ == '__main__':
     imu = IMU('/dev/ttyAMA0')
