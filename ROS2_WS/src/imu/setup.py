@@ -14,12 +14,13 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='root',
-    maintainer_email='你的jameswuxiaomo@gmail.com',
+    maintainer_email='jameswuxiaomo@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'imu_odometry_publisher = imu.imu:main',
         ],
     },
 )

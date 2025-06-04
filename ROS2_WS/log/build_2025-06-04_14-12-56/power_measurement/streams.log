@@ -1,0 +1,35 @@
+[0.873s] Invoking command in '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement': /usr/bin/cmake /home/illuminance_measurement_robot/ROS2_WS/src/power_measurement -DCMAKE_INSTALL_PREFIX=/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement
+[1.066s] -- The C compiler identification is GNU 9.4.0
+[1.329s] -- The CXX compiler identification is GNU 9.4.0
+[1.339s] -- Check for working C compiler: /usr/bin/cc
+[1.531s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.535s] -- Detecting C compiler ABI info
+[1.831s] -- Detecting C compiler ABI info - done
+[1.876s] -- Detecting C compile features
+[1.878s] -- Detecting C compile features - done
+[1.893s] -- Check for working CXX compiler: /usr/bin/c++
+[2.225s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.233s] -- Detecting CXX compiler ABI info
+[2.568s] -- Detecting CXX compiler ABI info - done
+[2.602s] -- Detecting CXX compile features
+[2.605s] -- Detecting CXX compile features - done
+[2.690s] CMake Error at CMakeLists.txt:19 (find_package):
+[2.691s] -- Configuring incomplete, errors occurred!
+[2.695s] See also "/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement/CMakeFiles/CMakeOutput.log".
+[2.696s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.697s]   has asked CMake to find a package configuration file provided by
+[2.698s]   "ament_cmake", but CMake did not find one.
+[2.699s] 
+[2.699s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.701s]   any of the following names:
+[2.704s] 
+[2.704s]     ament_cmakeConfig.cmake
+[2.704s]     ament_cmake-config.cmake
+[2.704s] 
+[2.705s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.705s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.709s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.711s]   has been installed.
+[2.711s] 
+[2.711s] 
+[2.739s] Invoked command in '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement' returned '1': /usr/bin/cmake /home/illuminance_measurement_robot/ROS2_WS/src/power_measurement -DCMAKE_INSTALL_PREFIX=/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement

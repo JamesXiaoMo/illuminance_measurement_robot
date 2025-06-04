@@ -1,0 +1,3 @@
+[console_scripts]
+imu_odometry_publisher = imu.imu:main
+

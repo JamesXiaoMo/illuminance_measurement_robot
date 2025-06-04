@@ -1,0 +1,21 @@
+[2.127s] Invoking command in '/home/illuminance_measurement_robot/ROS2_WS/src/brightness_measurement': PYTHONPATH=/home/illuminance_measurement_robot/ROS2_WS/build/brightness_measurement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/illuminance_measurement_robot/ROS2_WS/install/brightness_measurement/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brightness_measurement build --build-base /home/illuminance_measurement_robot/ROS2_WS/build/brightness_measurement/build install --record /home/illuminance_measurement_robot/ROS2_WS/build/brightness_measurement/install.log --install-scripts $base/lib/brightness_measurement --single-version-externally-managed install_data
+[2.511s] running egg_info
+[2.513s] writing ../../build/brightness_measurement/brightness_measurement.egg-info/PKG-INFO
+[2.514s] writing dependency_links to ../../build/brightness_measurement/brightness_measurement.egg-info/dependency_links.txt
+[2.516s] writing entry points to ../../build/brightness_measurement/brightness_measurement.egg-info/entry_points.txt
+[2.516s] writing requirements to ../../build/brightness_measurement/brightness_measurement.egg-info/requires.txt
+[2.516s] writing top-level names to ../../build/brightness_measurement/brightness_measurement.egg-info/top_level.txt
+[2.566s] reading manifest file '../../build/brightness_measurement/brightness_measurement.egg-info/SOURCES.txt'
+[2.568s] writing manifest file '../../build/brightness_measurement/brightness_measurement.egg-info/SOURCES.txt'
+[2.569s] running build
+[2.569s] running build_py
+[2.570s] running install
+[2.574s] running install_lib
+[2.577s] running install_data
+[2.577s] running install_egg_info
+[2.579s] removing '/home/illuminance_measurement_robot/ROS2_WS/install/brightness_measurement/lib/python3.8/site-packages/brightness_measurement-0.0.0-py3.8.egg-info' (and everything under it)
+[2.580s] Copying ../../build/brightness_measurement/brightness_measurement.egg-info to /home/illuminance_measurement_robot/ROS2_WS/install/brightness_measurement/lib/python3.8/site-packages/brightness_measurement-0.0.0-py3.8.egg-info
+[2.585s] running install_scripts
+[2.616s] Installing brightness_measurement_node script to /home/illuminance_measurement_robot/ROS2_WS/install/brightness_measurement/lib/brightness_measurement
+[2.618s] writing list of installed files to '/home/illuminance_measurement_robot/ROS2_WS/build/brightness_measurement/install.log'
+[2.696s] Invoked command in '/home/illuminance_measurement_robot/ROS2_WS/src/brightness_measurement' returned '0': PYTHONPATH=/home/illuminance_measurement_robot/ROS2_WS/build/brightness_measurement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/illuminance_measurement_robot/ROS2_WS/install/brightness_measurement/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brightness_measurement build --build-base /home/illuminance_measurement_robot/ROS2_WS/build/brightness_measurement/build install --record /home/illuminance_measurement_robot/ROS2_WS/build/brightness_measurement/install.log --install-scripts $base/lib/brightness_measurement --single-version-externally-managed install_data

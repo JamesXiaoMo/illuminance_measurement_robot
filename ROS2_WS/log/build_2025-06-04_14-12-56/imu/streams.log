@@ -1,0 +1,43 @@
+[1.854s] Invoking command in '/home/illuminance_measurement_robot/ROS2_WS/src/imu': PYTHONPATH=/home/illuminance_measurement_robot/ROS2_WS/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/illuminance_measurement_robot/ROS2_WS/build/imu/build install --record /home/illuminance_measurement_robot/ROS2_WS/build/imu/install.log --install-scripts $base/lib/imu --single-version-externally-managed install_data
+[2.441s] running egg_info
+[2.446s] creating ../../build/imu/imu.egg-info
+[2.449s] writing ../../build/imu/imu.egg-info/PKG-INFO
+[2.450s] writing dependency_links to ../../build/imu/imu.egg-info/dependency_links.txt
+[2.454s] writing entry points to ../../build/imu/imu.egg-info/entry_points.txt
+[2.454s] writing requirements to ../../build/imu/imu.egg-info/requires.txt
+[2.455s] writing top-level names to ../../build/imu/imu.egg-info/top_level.txt
+[2.471s] writing manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[2.568s] reading manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[2.570s] writing manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[2.571s] running build
+[2.571s] running build_py
+[2.575s] creating /home/illuminance_measurement_robot/ROS2_WS/build/imu/build
+[2.575s] creating /home/illuminance_measurement_robot/ROS2_WS/build/imu/build/lib
+[2.575s] creating /home/illuminance_measurement_robot/ROS2_WS/build/imu/build/lib/imu
+[2.575s] copying imu/imu_driver.py -> /home/illuminance_measurement_robot/ROS2_WS/build/imu/build/lib/imu
+[2.575s] copying imu/debug_imu.py -> /home/illuminance_measurement_robot/ROS2_WS/build/imu/build/lib/imu
+[2.575s] copying imu/imu.py -> /home/illuminance_measurement_robot/ROS2_WS/build/imu/build/lib/imu
+[2.576s] copying imu/__init__.py -> /home/illuminance_measurement_robot/ROS2_WS/build/imu/build/lib/imu
+[2.576s] running install
+[2.580s] running install_lib
+[2.582s] creating /home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages/imu
+[2.583s] copying /home/illuminance_measurement_robot/ROS2_WS/build/imu/build/lib/imu/imu_driver.py -> /home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages/imu
+[2.585s] copying /home/illuminance_measurement_robot/ROS2_WS/build/imu/build/lib/imu/debug_imu.py -> /home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages/imu
+[2.585s] copying /home/illuminance_measurement_robot/ROS2_WS/build/imu/build/lib/imu/imu.py -> /home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages/imu
+[2.587s] copying /home/illuminance_measurement_robot/ROS2_WS/build/imu/build/lib/imu/__init__.py -> /home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages/imu
+[2.589s] byte-compiling /home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages/imu/imu_driver.py to imu_driver.cpython-38.pyc
+[2.593s] byte-compiling /home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages/imu/debug_imu.py to debug_imu.cpython-38.pyc
+[2.594s] byte-compiling /home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages/imu/imu.py to imu.cpython-38.pyc
+[2.594s] byte-compiling /home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages/imu/__init__.py to __init__.cpython-38.pyc
+[2.596s] running install_data
+[2.596s] creating /home/illuminance_measurement_robot/ROS2_WS/install/imu/share/ament_index
+[2.596s] creating /home/illuminance_measurement_robot/ROS2_WS/install/imu/share/ament_index/resource_index
+[2.596s] creating /home/illuminance_measurement_robot/ROS2_WS/install/imu/share/ament_index/resource_index/packages
+[2.596s] copying resource/imu -> /home/illuminance_measurement_robot/ROS2_WS/install/imu/share/ament_index/resource_index/packages
+[2.599s] copying package.xml -> /home/illuminance_measurement_robot/ROS2_WS/install/imu/share/imu
+[2.601s] running install_egg_info
+[2.605s] Copying ../../build/imu/imu.egg-info to /home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages/imu-0.0.0-py3.8.egg-info
+[2.610s] running install_scripts
+[2.669s] Installing imu_odometry_publisher script to /home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/imu
+[2.671s] writing list of installed files to '/home/illuminance_measurement_robot/ROS2_WS/build/imu/install.log'
+[2.772s] Invoked command in '/home/illuminance_measurement_robot/ROS2_WS/src/imu' returned '0': PYTHONPATH=/home/illuminance_measurement_robot/ROS2_WS/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/illuminance_measurement_robot/ROS2_WS/build/imu/build install --record /home/illuminance_measurement_robot/ROS2_WS/build/imu/install.log --install-scripts $base/lib/imu --single-version-externally-managed install_data

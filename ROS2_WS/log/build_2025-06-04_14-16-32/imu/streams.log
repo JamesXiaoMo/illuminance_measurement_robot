@@ -1,0 +1,21 @@
+[2.185s] Invoking command in '/home/illuminance_measurement_robot/ROS2_WS/src/imu': PYTHONPATH=/home/illuminance_measurement_robot/ROS2_WS/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/illuminance_measurement_robot/ROS2_WS/build/imu/build install --record /home/illuminance_measurement_robot/ROS2_WS/build/imu/install.log --install-scripts $base/lib/imu --single-version-externally-managed install_data
+[2.566s] running egg_info
+[2.566s] writing ../../build/imu/imu.egg-info/PKG-INFO
+[2.566s] writing dependency_links to ../../build/imu/imu.egg-info/dependency_links.txt
+[2.567s] writing entry points to ../../build/imu/imu.egg-info/entry_points.txt
+[2.568s] writing requirements to ../../build/imu/imu.egg-info/requires.txt
+[2.568s] writing top-level names to ../../build/imu/imu.egg-info/top_level.txt
+[2.622s] reading manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[2.625s] writing manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[2.625s] running build
+[2.626s] running build_py
+[2.626s] running install
+[2.628s] running install_lib
+[2.632s] running install_data
+[2.632s] running install_egg_info
+[2.636s] removing '/home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages/imu-0.0.0-py3.8.egg-info' (and everything under it)
+[2.637s] Copying ../../build/imu/imu.egg-info to /home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages/imu-0.0.0-py3.8.egg-info
+[2.639s] running install_scripts
+[2.684s] Installing imu_odometry_publisher script to /home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/imu
+[2.685s] writing list of installed files to '/home/illuminance_measurement_robot/ROS2_WS/build/imu/install.log'
+[2.759s] Invoked command in '/home/illuminance_measurement_robot/ROS2_WS/src/imu' returned '0': PYTHONPATH=/home/illuminance_measurement_robot/ROS2_WS/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/illuminance_measurement_robot/ROS2_WS/install/imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/illuminance_measurement_robot/ROS2_WS/build/imu/build install --record /home/illuminance_measurement_robot/ROS2_WS/build/imu/install.log --install-scripts $base/lib/imu --single-version-externally-managed install_data
