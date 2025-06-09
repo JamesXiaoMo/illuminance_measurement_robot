@@ -1,4 +1,0 @@
-source;share/power_measurement/local_setup.bash
-source;share/power_measurement/local_setup.dsv
-source;share/power_measurement/local_setup.sh
-source;share/power_measurement/local_setup.zsh

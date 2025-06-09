@@ -1,3 +1,0 @@
-[console_scripts]
-brightness_measurement_node = brightness_measurement.brightness_measurement_node:main
-

@@ -1,2 +1,0 @@
-Invoking command in '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement': /usr/bin/cmake /home/illuminance_measurement_robot/ROS2_WS/src/power_measurement -DCMAKE_INSTALL_PREFIX=/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement
-Invoked command in '/home/illuminance_measurement_robot/ROS2_WS/build/power_measurement' returned '1': /usr/bin/cmake /home/illuminance_measurement_robot/ROS2_WS/src/power_measurement -DCMAKE_INSTALL_PREFIX=/home/illuminance_measurement_robot/ROS2_WS/install/power_measurement

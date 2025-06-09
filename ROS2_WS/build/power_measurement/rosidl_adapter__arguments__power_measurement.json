@@ -1,6 +1,0 @@
-{
-  "package_name": "power_measurement",
-  "non_idl_tuples": [
-    "/home/illuminance_measurement_robot/ROS2_WS/src/power_measurement:msg/Ina228Sensor.msg"
-  ]
-}
