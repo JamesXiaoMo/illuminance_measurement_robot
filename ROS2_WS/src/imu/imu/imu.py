@@ -24,7 +24,7 @@ class ImuOdometryPublisher(Node):
 
         acc = self.imu.ACCData
         gyro = self.imu.GYROData
-        quat = self.imu.QUATData
+        quat = self.imu.QUATDATA
 
         acc[2] -= 9.81
 

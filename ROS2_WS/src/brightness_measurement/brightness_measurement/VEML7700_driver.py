@@ -12,6 +12,9 @@ class VEML7700:
 
     def init_sensor(self):
         config = 0x0000
+        config |= (0x0 << 11)  # Gain 1x
+        config |= (0x5 << 6)   # Integration time 100ms
+        config &= ~(1 << 1)    # ALS enable
         self.write_word(self.ALS_CONF, config)
 
     def write_word(self, reg, value):
@@ -29,7 +32,7 @@ class VEML7700:
         return lux
 
     def convert_to_lux(self, raw):
-        return raw * 0.0576
+        return raw * 0.03833
 
     def close(self):
         self.bus.close()

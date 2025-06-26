@@ -9,7 +9,7 @@ class TwistListener(Node):
         self.ser = serial.Serial('/dev/ttyUSB0', 115200, timeout=0.1)
         self.subscription = self.create_subscription(
             Twist,
-            'cmd_vel',
+    'cmd_vel',
             self.listener_callback,
             10
         )

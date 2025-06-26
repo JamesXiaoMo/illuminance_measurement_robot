@@ -75,7 +75,7 @@ class IMU:
             q2_raw = struct.unpack('<h', bytes(frame[6:8]))[0]
             q3_raw = struct.unpack('<h', bytes(frame[8:10]))[0]
 
-            self.QUATData = [
+            self.QUATDATA = [
                 q0_raw / 32768.0,
                 q1_raw / 32768.0,
                 q2_raw / 32768.0,
@@ -83,10 +83,10 @@ class IMU:
             ]
 
             return {
-                "q0": self.QUATData[0],
-                "q1": self.QUATData[1],
-                "q2": self.QUATData[2],
-                "q3": self.QUATData[3]
+                "q0": self.QUATDATA[0],
+                "q1": self.QUATDATA[1],
+                "q2": self.QUATDATA[2],
+                "q3": self.QUATDATA[3]
             }
         else:
             return {"unknown": frame}
